@@ -3,6 +3,7 @@ var Main = React.createClass({
   render: function() {
     return (
       <div>
+      <ReactHandler {this.props} />
       Hello World
       </div>
     );
